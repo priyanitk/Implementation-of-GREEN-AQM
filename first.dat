@@ -1,8 +1,0 @@
-Waf: Entering directory `/home/sony-vaio/Desktop/ns-allinone-3.27/ns-3.27/build'
-Waf: Leaving directory `/home/sony-vaio/Desktop/ns-allinone-3.27/ns-3.27/build'
-Build commands will be stored in build/compile_commands.json
-'build' finished successfully (2.545s)
-At time 2s client sent 1024 bytes to 10.1.1.2 port 9
-At time 2.00369s server received 1024 bytes from 10.1.1.1 port 49153
-At time 2.00369s server sent 1024 bytes to 10.1.1.1 port 49153
-At time 2.00737s client received 1024 bytes from 10.1.1.2 port 9
