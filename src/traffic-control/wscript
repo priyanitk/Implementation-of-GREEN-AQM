@@ -18,7 +18,8 @@ def build(bld):
       'model/fq-codel-queue-disc.cc',
       'model/pie-queue-disc.cc',
       'helper/traffic-control-helper.cc',
-      'helper/queue-disc-container.cc'
+      'helper/queue-disc-container.cc',
+      'model/green-queue-disc.cc'
         ]
 
     module_test = bld.create_ns3_module_test_library('traffic-control')
@@ -39,7 +40,8 @@ def build(bld):
       'model/fq-codel-queue-disc.h',
       'model/pie-queue-disc.h',
       'helper/traffic-control-helper.h',
-      'helper/queue-disc-container.h'
+      'helper/queue-disc-container.h',
+      'model/green-queue-disc.h'
         ]
 
     if bld.env.ENABLE_EXAMPLES:
